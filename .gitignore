@@ -1,0 +1,56 @@
+# Ignore virtual environments
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore project-specific data files or directories (modify as needed)
+data/
+*.csv
+*.json
+*.pkl
+
+# Ignore model-related files (modify as needed)
+models/
+*.h5
+*.model
+*.ckpt
+
+# Ignore logs and generated files
+logs/
+*.log
+*.txt
+
+# Ignore Python package files
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore system or IDE-specific files
+.vscode/
+.idea/
+*.pyproj
+*.DS_Store
+__MACOSX/
+
+# Ignore configuration files (modify as needed)
+config.ini
+secrets.ini
+
+# Ignore environment-specific files (modify as needed)
+.env
+.env.*
+
+# Ignore cache and temporary files
+*.swp
+*.swo
+*.cache
+*.pytest_cache/
+__pycache__/
+
+# Ignore dependencies installed via pip (use requirements.txt for that)
+requirements.txt
